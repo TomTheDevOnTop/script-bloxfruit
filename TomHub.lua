@@ -54,7 +54,7 @@ local v3_args = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahmad
 
 local v4_args = v3_args:MakeNotify({
 
-	["Title"] = "Rise Hub |",
+	["Title"] = "Tom Hub V2 |",
 
 	["Description"] = "Free Scripts",
 
