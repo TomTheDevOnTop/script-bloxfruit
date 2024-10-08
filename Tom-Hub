@@ -1,7 +1,7 @@
 game.StarterGui:SetCore(
     "SendNotification",
     {
-        Title = "Hiru Hub",
+        Title = "Tom Hub Test",
         Text = "Loading",
         Duration = 5
     })    
