@@ -1,4 +1,4 @@
-local placeId = game.PlaceId
+local placeId = game.2753915549
 local jobId = game.JobId
 
 local sea1 = 2753915549
