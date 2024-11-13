@@ -54,7 +54,7 @@ local Data =
                 },
                 {                
                     ["name"] = "Job ID:",
-                    ["value"] = " " .. jobId,
+                    ["value"] = "``` "  jobId,
                     ["inline"] = true
                 },
                 {
@@ -64,7 +64,7 @@ local Data =
                 },
                 {
                     ["name"] = "Thank You For Use:",
-                    ["value"] = "**__TomDepZai Hub__**",
+                    ["value"] = "**__Shino Hub__**",
                     ["inline"] = true          
                 }
             }              
@@ -76,10 +76,10 @@ local Headers = {["Content-Type"] = "application/json"}
 local Encoded = HttpService:JSONEncode(Data)
 
 local Request = http_request or request or HttpPost or syn.request
-local Final = {Url = "https://discord.com/api/webhooks/1284493496463396906/yWkbiBkyvXwPHWs2AUAM7wKFSoRRfLiKY6hjEbTEB9NUgiXKWHhuYmRBxwf7n0Ore2j2", Body = Encoded, Method = "POST", Headers = Headers}
+local Final = {Url = "https://cdn.discordapp.com/attachments/1302638208143855646/1305522358853046302/8662676134ed4b6f2d56f06102920b07.jpg?ex=67355031&is=6733feb1&hm=efdf8883e3cd0c4660b9101f168bd04bf1879165debdc5fa514c8cf30150b716&", Body = Encoded, Method = "POST", Headers = Headers}
 Request(Final)
 
-shared.LoaderTitle = 'TomDepZai Hub Wellcome'
+shared.LoaderTitle = 'shino hub Wellcome'
 shared.LoaderKeyFrames = {
     [1] = {1, 10},
     [2] = {2, 30},
@@ -107,10 +107,10 @@ local Metadata = {
 }
 
 local StepTexts = {
-    [1] = "",
-    [2] = "",
-    [3] = "",
-    [4] = ""
+    [1] = "1",
+    [2] = "2",
+    [3] = "3",
+    [4] = "4"
 }
 
 function TweenObject(object, speed, info)
@@ -193,7 +193,7 @@ local Top = CreateObject("TextLabel", {
 })
 
 local Title = CreateObject("TextLabel", {
-    Name = "TomDepZai Hub",
+    Name = "Shino Hub",
     Parent = Main,
     TextTransparency = 1,
     BackgroundColor3 = Color3.fromRGB(255, 255, 255),
